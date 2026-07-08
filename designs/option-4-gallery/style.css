@@ -16,11 +16,7 @@ body {
   font-family: var(--font-body);
 }
 
-/* ── Header overrides ── */
-
-.site-header.is-solid {
-  background: rgba(247, 240, 232, 0.97);
-}
+/* ── Header: terracotta CTA button ── */
 
 .main-nav .nav-cta {
   border: none;

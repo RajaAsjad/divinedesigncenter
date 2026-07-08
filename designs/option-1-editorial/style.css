@@ -1,9 +1,5 @@
 /* Option 1 — Editorial Luxury (polished UX) */
 
-.site-header.is-overlay:not(.is-scrolled):not(.menu-open) .logo img {
-  filter: brightness(0) invert(1);
-}
-
 .hero {
   position: relative;
   min-height: 100svh;

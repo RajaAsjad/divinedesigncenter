@@ -13,32 +13,6 @@ body {
   font-family: var(--font-body);
 }
 
-/* ── Header overlay on hero ── */
-
-.site-header.is-overlay:not(.is-scrolled):not(.menu-open) .logo img {
-  filter: brightness(0) invert(1);
-}
-
-.site-header.is-overlay:not(.is-scrolled):not(.menu-open) .main-nav a {
-  color: var(--color-cream);
-}
-
-.site-header.is-overlay:not(.is-scrolled):not(.menu-open) .main-nav a:hover,
-.site-header.is-overlay:not(.is-scrolled):not(.menu-open) .main-nav a.is-active {
-  color: var(--color-blush);
-}
-
-.site-header.is-overlay:not(.is-scrolled):not(.menu-open) .nav-cta {
-  border-color: var(--color-cream);
-  color: var(--color-cream) !important;
-}
-
-.site-header.is-overlay:not(.is-scrolled):not(.menu-open) .nav-cta:hover {
-  background: var(--color-cream);
-  color: var(--color-espresso) !important;
-  border-color: var(--color-cream);
-}
-
 /* ── Hero ── */
 
 .hero {

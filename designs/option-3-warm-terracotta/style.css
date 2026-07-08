@@ -8,16 +8,6 @@
   --option-grid-gap: clamp(1rem, 2vw, 1.5rem);
 }
 
-/* Overlay header: keep logo readable over hero image */
-.site-header.is-overlay:not(.is-scrolled):not(.menu-open) .logo img {
-  filter: brightness(0) invert(1);
-}
-
-.site-header.is-scrolled .logo img,
-.site-header.menu-open .logo img {
-  filter: none;
-}
-
 /* ── Terracotta accent elements ── */
 .accent-bar {
   width: 48px;
