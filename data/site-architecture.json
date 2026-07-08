@@ -1,0 +1,132 @@
+{
+  "project": "Divine Design Center Website Redesign",
+  "targetPlatform": "Webflow",
+  "currentPlatform": "Squarespace",
+  "domain": {
+    "current": "divinedesigncenter.com",
+    "candidates": [
+      "yourdivinehome.com",
+      "divinehomestyle.com",
+      "divinedesignhome.com"
+    ]
+  },
+  "brand": {
+    "taglinePrimary": "Design Is Our Language",
+    "taglineSecondary": "Whole-Home Design. Elevated Living.",
+    "positioning": "Luxury whole-home design studio — design first, products second",
+    "palette": ["cream", "sand", "beige", "terracotta", "espresso"],
+    "avoidColors": ["black", "gray", "pure white"],
+    "fontsPrimary": {
+      "display": "Cormorant Garamond",
+      "body": "Jost"
+    }
+  },
+  "navigation": [
+    { "label": "Our Work", "path": "/our-work", "type": "collection" },
+    { "label": "Design Studio", "path": "/design-studio", "type": "static" },
+    { "label": "Showroom", "path": "/showroom", "type": "static" },
+    { "label": "Products", "path": "/products", "type": "static", "children": [
+      { "label": "Minimal European Doors", "path": "/products/minimal-european-doors" },
+      { "label": "Entry Doors", "path": "/products/entry-doors" },
+      { "label": "Glass Partitions", "path": "/products/glass-partitions" },
+      { "label": "Wall Cladding & Interior Doors", "path": "/products/wall-cladding-interior-doors" },
+      { "label": "Modern Stairs", "path": "/products/modern-stairs" }
+    ]},
+    { "label": "About", "path": "/about", "type": "static" },
+    { "label": "Journal", "path": "/blog", "type": "collection" },
+    { "label": "Get In Touch", "path": "/get-in-touch", "type": "static", "cta": true }
+  ],
+  "pages": {
+    "static": [
+      {
+        "slug": "home",
+        "path": "/",
+        "features": ["full-bleed-video-hero", "conversion-funnel-ctas", "lifestyle-imagery", "featured-work-10-projects"]
+      },
+      {
+        "slug": "about",
+        "path": "/about",
+        "mergeSources": [
+          "https://divinedesigncenter.com/about",
+          "https://divinedesigncenter.com/divine-history",
+          "https://divinedesigncenter.com/the-team"
+        ],
+        "sections": ["founders", "history-timeline", "team", "values", "trust-signals"]
+      },
+      {
+        "slug": "design-studio",
+        "path": "/design-studio",
+        "video": "https://youtu.be/B4oLkpTzXV4",
+        "contentSource": "https://divinedesigncenter.com/boston-3d-interior-design-services"
+      },
+      {
+        "slug": "showroom",
+        "path": "/showroom",
+        "video": "https://youtu.be/apST3v-5X74",
+        "contentSources": [
+          "https://divinedesigncenter.com/our-showroom",
+          "https://divinedesigncenter.com/divine-design-center-boston-exclusive-brands",
+          "https://divinedesigncenter.com/trade"
+        ]
+      },
+      {
+        "slug": "get-in-touch",
+        "path": "/get-in-touch",
+        "contentSource": "https://divinedesigncenter.com/get-a-quote",
+        "forms": ["introductory-call", "showroom-visit", "email-inquiry", "lookbook-download"]
+      }
+    ],
+    "collections": [
+      {
+        "slug": "our-work",
+        "path": "/our-work",
+        "type": "CMS Collection",
+        "note": "Whole-home portfolio — NOT split by category",
+        "featuredCount": 10,
+        "lookbookHasMore": true,
+        "fields": [
+          "top-media-photo-or-video",
+          "gallery-photos",
+          "project-name-internal",
+          "title",
+          "description",
+          "type",
+          "style"
+        ],
+        "filters": ["type", "style", "location"],
+        "contentSources": [
+          "https://divinedesigncenter.com/boston-award-winning-modern-contemporary-kitchens",
+          "https://divinedesigncenter.com/boston-award-winning-transitional-kitchens",
+          "https://divinedesigncenter.com/coastal-kitchens",
+          "https://divinedesigncenter.com/boston-award-winning-glamour-kitchens",
+          "https://divinedesigncenter.com/boston-award-winning-traditional-kitchens",
+          "https://divinedesigncenter.com/outdoor-kitchens",
+          "https://divinedesigncenter.com/boston-award-winning-bathrooms-master-suites",
+          "https://divinedesigncenter.com/boston-new-construction-and-major-renovations",
+          "https://divinedesigncenter.com/boston-award-winning-furniture-interiors"
+        ]
+      },
+      {
+        "slug": "blog",
+        "path": "/blog",
+        "type": "CMS Collection",
+        "contentSource": "https://divinedesigncenter.com/blog",
+        "preserveUrl": true
+      }
+    ]
+  },
+  "conversionFunnel": [
+    { "question": "Can they do what I want?", "cta": "See Our Work", "path": "/our-work", "stage": 1 },
+    { "question": "Is this it?", "cta": "Download the Look Book", "path": "/lookbook", "stage": 2 },
+    { "question": "Can I trust them?", "cta": "Meet Our Founders", "path": "/about#founders", "stage": 3 },
+    { "question": "Whom will I be working with?", "cta": "Meet Your Design Team", "path": "/about#team", "stage": 4 },
+    { "question": "Can I talk to someone for ½ hour?", "cta": "Schedule Introductory Call", "path": "/get-in-touch?type=intro-call", "stage": 5 },
+    { "question": "Can I see their work in person?", "cta": "Schedule a Showroom Visit", "path": "/get-in-touch?type=showroom", "stage": 6 },
+    { "question": "Let's see how they respond?", "cta": "Inquire by Email", "path": "/get-in-touch?type=email", "stage": 7 }
+  ],
+  "designReferences": [
+    { "url": "https://jsfdesigninc.com/", "takeaway": "Story-driven luxury, warm materials, editorial flow" },
+    { "url": "https://laurodominici.com/", "takeaway": "Warm beige/cream palette, sophisticated typography" },
+    { "url": "https://lucalanzetta.com", "takeaway": "Cinematic structure, bold hero, minimal navigation" }
+  ]
+}

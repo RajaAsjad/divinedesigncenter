@@ -1,0 +1,75 @@
+{
+  "note": "301 redirect map for Squarespace → Webflow migration. Preserve SEO rankings.",
+  "preserveExact": [
+    { "from": "/blog", "to": "/blog", "status": 301 },
+    { "from": "/blog/*", "to": "/blog/*", "status": 301 }
+  ],
+  "portfolioRedirects": [
+    {
+      "from": "/boston-award-winning-modern-contemporary-kitchens",
+      "to": "/our-work?style=modern-contemporary",
+      "status": 301,
+      "note": "Category page → filtered Our Work collection"
+    },
+    {
+      "from": "/boston-award-winning-transitional-kitchens",
+      "to": "/our-work?style=transitional",
+      "status": 301
+    },
+    {
+      "from": "/coastal-kitchens",
+      "to": "/our-work?style=coastal",
+      "status": 301
+    },
+    {
+      "from": "/boston-award-winning-glamour-kitchens",
+      "to": "/our-work?style=glamour",
+      "status": 301
+    },
+    {
+      "from": "/boston-award-winning-traditional-kitchens",
+      "to": "/our-work?style=traditional",
+      "status": 301
+    },
+    {
+      "from": "/outdoor-kitchens",
+      "to": "/our-work?type=outdoor",
+      "status": 301
+    },
+    {
+      "from": "/boston-award-winning-bathrooms-master-suites",
+      "to": "/our-work?type=bathroom",
+      "status": 301
+    },
+    {
+      "from": "/boston-new-construction-and-major-renovations",
+      "to": "/our-work?type=new-construction",
+      "status": 301
+    },
+    {
+      "from": "/boston-award-winning-furniture-interiors",
+      "to": "/our-work?type=interiors",
+      "status": 301
+    }
+  ],
+  "pageRedirects": [
+    { "from": "/about", "to": "/about", "status": 301 },
+    { "from": "/divine-history", "to": "/about#history", "status": 301 },
+    { "from": "/the-team", "to": "/about#team", "status": 301 },
+    { "from": "/boston-3d-interior-design-services", "to": "/design-studio", "status": 301 },
+    { "from": "/our-showroom", "to": "/showroom", "status": 301 },
+    { "from": "/divine-design-center-boston-exclusive-brands", "to": "/showroom#brands", "status": 301 },
+    { "from": "/trade", "to": "/showroom#trade", "status": 301 },
+    { "from": "/get-a-quote", "to": "/get-in-touch", "status": 301 },
+    { "from": "/minimal-european-windows", "to": "/products/minimal-european-doors", "status": 301 },
+    { "from": "/entry-doors", "to": "/products/entry-doors", "status": 301 },
+    { "from": "/room-dividing-glass-partitions", "to": "/products/glass-partitions", "status": 301 },
+    { "from": "/boston-italian-interior-doors", "to": "/products/wall-cladding-interior-doors", "status": 301 },
+    { "from": "/modern-stairs", "to": "/products/modern-stairs", "status": 301 }
+  ],
+  "individualProjectRedirects": {
+    "note": "Each project URL from old category pages should redirect to its new /our-work/[slug] page",
+    "pattern": "/[old-project-slug] → /our-work/[new-project-slug]",
+    "status": 301
+  }
+}

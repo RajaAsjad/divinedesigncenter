@@ -1,0 +1,66 @@
+/**
+ * Divine Design Center — Brand Design Tokens
+ * Palette: Beiges, creams, terracotta — no black, gray, or pure white
+ * Target: Webflow + Instagram consistency
+ */
+
+:root {
+  /* Primary palette */
+  --color-cream: #F7F0E8;
+  --color-sand: #E8DFD0;
+  --color-beige: #D4C4B0;
+  --color-warm-taupe: #B8A690;
+  --color-terracotta: #B8654A;
+  --color-terracotta-light: #D4896F;
+  --color-terracotta-dark: #9A4F38;
+  --color-blush: #E8C4B8;
+  --color-espresso: #3D2E24;
+  --color-walnut: #6B5344;
+  --color-caramel: #A67B5B;
+
+  /* Semantic */
+  --color-bg-primary: var(--color-cream);
+  --color-bg-secondary: var(--color-sand);
+  --color-bg-accent: var(--color-beige);
+  --color-text-primary: var(--color-espresso);
+  --color-text-secondary: var(--color-walnut);
+  --color-text-muted: var(--color-warm-taupe);
+  --color-accent: var(--color-terracotta);
+  --color-accent-hover: var(--color-terracotta-dark);
+  --color-border: var(--color-beige);
+
+  /* Typography — Option A (Primary brand) */
+  --font-display: "Cormorant Garamond", "Georgia", serif;
+  --font-body: "Jost", "Helvetica Neue", sans-serif;
+
+  /* Scale */
+  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.8125rem);
+  --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 0.9375rem);
+  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.0625rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.5vw, 1.25rem);
+  --text-xl: clamp(1.375rem, 1.2rem + 0.75vw, 1.625rem);
+  --text-2xl: clamp(1.75rem, 1.4rem + 1.5vw, 2.25rem);
+  --text-3xl: clamp(2.25rem, 1.8rem + 2vw, 3rem);
+  --text-4xl: clamp(2.75rem, 2rem + 3vw, 4rem);
+  --text-hero: clamp(3.5rem, 2.5rem + 4vw, 6rem);
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+  --space-3xl: 8rem;
+
+  /* Layout */
+  --max-width: 1400px;
+  --max-width-narrow: 900px;
+  --header-height: 80px;
+
+  /* Motion */
+  --ease-luxury: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --duration-fast: 200ms;
+  --duration-normal: 400ms;
+  --duration-slow: 800ms;
+}

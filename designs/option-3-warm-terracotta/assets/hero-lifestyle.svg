@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#E8DFD0"/>
+  <rect x="0" y="620" width="800" height="380" fill="#D4C4B0"/>
+  <rect x="80" y="120" width="320" height="420" fill="#F7F0E8" opacity="0.9"/>
+  <rect x="420" y="180" width="300" height="280" fill="#B8654A" opacity="0.35"/>
+  <rect x="80" y="580" width="640" height="8" fill="#B8654A" opacity="0.6"/>
+  <circle cx="620" cy="320" r="90" fill="#E8C4B8" opacity="0.5"/>
+  <rect x="120" y="160" width="240" height="160" fill="#B8A690" opacity="0.4"/>
+  <rect x="460" y="500" width="180" height="60" fill="#9A4F38" opacity="0.25"/>
+  <text x="400" y="960" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#6B5344" letter-spacing="0.3em">LIFESTYLE INTERIOR</text>
+</svg>

@@ -1,0 +1,68 @@
+{
+  "about": {
+    "founders": {
+      "names": "Mariette and Magued Barsoum",
+      "founded": 2004,
+      "mariette": {
+        "title": "Interior Designer & Certified Kitchen Designer (CKD)",
+        "credential": "National Kitchen & Bathroom Association"
+      },
+      "magued": {
+        "background": "Senior-level executive for engineering firms, Harvard University graduate",
+        "education": [
+          "B.S. & M.S. Mechanical and Aerospace Engineering — Worcester Polytechnic Institute",
+          "M.A. — Brandeis University",
+          "Ph.D. credit — Caltech"
+        ]
+      }
+    },
+    "company": {
+      "description": "Full-service boutique design studio & showroom with extensive in-house design capabilities. Specializes in all aspects of interiors.",
+      "showroom": "8,000 SF at Battery Wharf — New England's largest luxury lifestyle showroom",
+      "experience": "20+ years, thousands of completed projects",
+      "scope": ["new construction", "major renovations", "whole-home interiors", "kitchens", "bathrooms", "outdoor", "furniture"]
+    },
+    "values": [
+      { "title": "Experience", "desc": "20 years and thousands of completed projects" },
+      { "title": "Excellence in Design", "desc": "Video and photo-realistic 3D presentations" },
+      { "title": "Tailor Made", "desc": "Every project reflects the owners' lifestyle and tastes" },
+      { "title": "Exclusivity", "desc": "Exclusive source for Europe's top design brands" },
+      { "title": "Luxury Lifestyle", "desc": "Comprehensive selection of high-end European brands" },
+      { "title": "Partnership", "desc": "Preferred partner for Boston's top designers and architects" },
+      { "title": "Great Team", "desc": "Design to visualization to production, transport, and installation" }
+    ],
+    "history": [
+      { "year": 2004, "event": "Opened 900 SF showroom in Westborough, MA as Divine Kitchens" },
+      { "year": 2008, "event": "Mariette recognized in Worcester Business Journal 40-Under-Forty" },
+      { "year": 2009, "event": "Expanded to 2000 SF Wellesley showroom; rebranded to Divine Design+Build" },
+      { "year": 2013, "event": "Opened Leicht Boston at Boston Design Center" },
+      { "year": 2017, "event": "Opened 8000 SF Battery Wharf showroom — largest in New England" },
+      { "year": 2020, "event": "Major showroom renovation during COVID-19" },
+      { "year": 2023, "event": "Celebrating 20 years of luxury design in Boston" }
+    ],
+    "team": [
+      { "name": "Samantha", "role": "Principal Designer", "credentials": "M.S. Interior Architecture, Suffolk University; B.A. Interior Design, University New Haven" },
+      { "name": "Gaya", "role": "Interior Designer", "credentials": "B.F.A. Environmental Design, Rostov University" },
+      { "name": "Ariana", "role": "Designer", "credentials": "B.A. Architecture, UMass Amherst" },
+      { "name": "Nancy", "role": "Sr. Director of Business Dev.", "credentials": "B.S. Business, McIntosh College of Business" },
+      { "name": "Paul", "role": "Marketing Manager", "credentials": "M.S. Media Innovation and Data Comm, Northeastern University" },
+      { "name": "Isabel", "role": "Technical Director", "credentials": "International Relations, Trinity College" },
+      { "name": "Vaneza", "role": "Technical Designer", "credentials": "B.F.A. Interior Design, U. of the Incarnate Word" }
+    ]
+  },
+  "products": [
+    { "name": "Minimal European Doors", "oldUrl": "/minimal-european-windows", "newUrl": "/products/minimal-european-doors" },
+    { "name": "Entry Doors", "oldUrl": "/entry-doors", "newUrl": "/products/entry-doors" },
+    { "name": "Glass Partitions", "oldUrl": "/room-dividing-glass-partitions", "newUrl": "/products/glass-partitions" },
+    { "name": "Wall Cladding & Interior Doors", "oldUrl": "/boston-italian-interior-doors", "newUrl": "/products/wall-cladding-interior-doors" },
+    { "name": "Modern Stairs", "oldUrl": "/modern-stairs", "newUrl": "/products/modern-stairs" }
+  ],
+  "portfolioStrategy": {
+    "websiteFeaturedCount": 10,
+    "lookbookAdditionalProjects": "800+ pages",
+    "noCategorySplit": true,
+    "filters": ["type", "style", "location"],
+    "types": ["New Construction", "Major Renovation", "Whole Home", "Kitchen", "Bathroom", "Outdoor", "Interiors"],
+    "styles": ["Modern Contemporary", "Transitional", "Traditional", "Coastal", "Glamour"]
+  }
+}

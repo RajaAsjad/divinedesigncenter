@@ -1,0 +1,49 @@
+{
+  "logo": "https://images.squarespace-cdn.com/content/v1/5c251cc44cde7af5a41fd741/6c32611a-ec25-4959-bf12-0dccde6ec81a/Divine-Design-Center-Logo.png?format=300w",
+  "videos": {
+    "hero": "apST3v-5X74",
+    "showroom": "apST3v-5X74",
+    "designStudio": "B4oLkpTzXV4"
+  },
+  "projects": [
+    {
+      "title": "Wentworth Farm Residence",
+      "type": "New Construction",
+      "style": "Modern Transitional",
+      "image": "https://images.squarespace-cdn.com/content/v1/5c251cc44cde7af5a41fd741/1714594151289-2VPVXH1ZHPSXJBYPDR88/19+Wentworth+farm+Milton+MA+04+09+24+%C2%A9Keitaro+Yoshioka+006-min.jpg?format=1500w"
+    },
+    {
+      "title": "Hill Residence Interiors",
+      "type": "Whole Home",
+      "style": "Contemporary",
+      "image": "https://images.squarespace-cdn.com/content/v1/5c251cc44cde7af5a41fd741/1714592238179-TIQC8LAFP5CA6JTWK577/hill-05-HR.jpg?format=1500w"
+    },
+    {
+      "title": "Countryside Master Suite",
+      "type": "Major Renovation",
+      "style": "Transitional",
+      "image": "https://images.squarespace-cdn.com/content/v1/5c251cc44cde7af5a41fd741/1714593917077-WFSO6XCAH1MJVY0B02WL/53+Countryside+Newton6+26+23+%C2%A9Keitaro+Yoshioka+021-min.jpg?format=1500w"
+    },
+    {
+      "title": "Atlantic Avenue Penthouse",
+      "type": "Major Renovation",
+      "style": "Modern",
+      "image": "https://images.squarespace-cdn.com/content/v1/5c251cc44cde7af5a41fd741/63ed907f-ea35-4f21-85d5-0936c92e93ee/web+DDC+Atlantic+Ave+Unit+11B+Boston+MA+11+16+22+%C2%A9Keitaro+Yoshioka+015.jpg?format=1500w"
+    },
+    {
+      "title": "Bradford Street Residence",
+      "type": "Whole Home",
+      "style": "Traditional",
+      "image": "https://images.squarespace-cdn.com/content/v1/5c251cc44cde7af5a41fd741/07cb1e21-c31a-419d-a01e-9ba48a29d636/Web+DDC+40+Bradford+Street+Boston+MA+20190205+Photography+by+Keitaro+Yoshioka+023.jpg?format=1500w"
+    },
+    {
+      "title": "Newton Glamour Kitchen",
+      "type": "Kitchen",
+      "style": "Glamour",
+      "image": "https://images.squarespace-cdn.com/content/v1/5c251cc44cde7af5a41fd741/1708020262694-7DSXABUEIDJG9AWL5EY4/web++Newton+MA6+26+23+%C2%A9Keitaro+Yoshioka+007-1.jpg?format=1500w"
+    }
+  ],
+  "showroom": "https://images.squarespace-cdn.com/content/v1/5c251cc44cde7af5a41fd741/c14e4eb2-0220-4d33-864e-555ec3d0d430/web+DDC+10+Rows+Wharf+Boston+MA+Photography+Keitaro+Yoshioka++007.jpg?format=1500w",
+  "lifestyle": "https://images.squarespace-cdn.com/content/v1/5c251cc44cde7af5a41fd741/a2b0089d-e8aa-47ef-ab30-471ca68a89b4/Ekmelian+DDC-1-min.jpeg?format=1500w",
+  "design3d": "https://images.squarespace-cdn.com/content/v1/5c251cc44cde7af5a41fd741/064565b3-958e-4f59-9665-644bbd2366f6/divine-design-center-boston-Newton-Glamor-kitchen+3D+photo+realistic+%284%29.PNG?format=1500w"
+}
