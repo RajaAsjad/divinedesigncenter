@@ -47,7 +47,7 @@
     e.preventDefault();
     const btn = e.target.querySelector('.contact__submit');
     if (btn) {
-      btn.textContent = 'Thank You — We\'ll Be In Touch';
+      btn.textContent = 'Thank you. We\'ll be in touch soon.';
       btn.disabled = true;
     }
   });
