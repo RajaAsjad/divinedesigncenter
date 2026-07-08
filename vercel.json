@@ -3,7 +3,7 @@
   "buildCommand": null,
   "outputDirectory": ".",
   "cleanUrls": true,
-  "trailingSlash": false,
+  "trailingSlash": true,
   "headers": [
     {
       "source": "/(.*)",
@@ -13,7 +13,15 @@
       ]
     }
   ],
+  "redirects": [
+    { "source": "/option-1-editorial", "destination": "/designs/option-1-editorial/", "permanent": false },
+    { "source": "/option-2-cinematic", "destination": "/designs/option-2-cinematic/", "permanent": false },
+    { "source": "/option-3-warm-terracotta", "destination": "/designs/option-3-warm-terracotta/", "permanent": false },
+    { "source": "/option-4-gallery", "destination": "/designs/option-4-gallery/", "permanent": false },
+    { "source": "/option-5-conversion", "destination": "/designs/option-5-conversion/", "permanent": false }
+  ],
   "rewrites": [
-    { "source": "/", "destination": "/designs/index.html" }
+    { "source": "/", "destination": "/designs/index.html" },
+    { "source": "/designs", "destination": "/designs/index.html" }
   ]
 }
